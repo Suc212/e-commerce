@@ -1,0 +1,34 @@
+:root {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100vh;
+  height: 80vh;
+  font-size: 16px;
+}
+
+body main {
+  max-width: 1440px;
+  max-height: 100%;
+  @i margin: auto;
+}
+
+body main header {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+body main header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=styles.css.map */
