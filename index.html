@@ -4,19 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+    </style>
   </head>
-  <body
+  <body>
     <main>
       <header>
-        <nav class="left">
-          <img src="/images/logo.svg" alt="logo" />
+        <nav class="logo-link">
+          <div>
+            <img src="/images/logo.svg" alt="logo" />
+          </div>
           <li>
             <a href="#">Collections</a>
             <a href="#"> Men</a>
@@ -25,44 +24,51 @@
             <a href="#">Contact</a>
           </li>
         </nav>
-        <nav class="right">
-          <img src="/images/icon-cart.svg" alt="" />
-          <img src="/images/image-avatar.png" alt="" />
+        <nav class="profile">
+          <div>
+            <img src="/images/icon-cart.svg" alt="" />
+          </div>
+          <div>
+            <img src="/images/image-avatar.png" alt="" />
+          </div>
         </nav>
       </header>
-      <section class="main-contain">
-        <div class="left">
-          <div class="big-img">
-            <img src="/images/image-product-1.jpg" alt="big img" />
-          </div>
-          <div class="btm-img">
-            <img src="/images/image-product-1-thumbnail.jpg" alt="th1" />
-            <img src="/images/image-product-2-thumbnail.jpg" alt="th2" />
-            <img src="/images/image-product-3-thumbnail.jpg" alt="th3" />
-            <img src="/images/image-product-4-thumbnail.jpg" alt="th4" />
-          </div>
-        </div>
-        <div class="right">
-          <h4>Sneaker Company</h4>
-          <h1>Fall Limited Edition Sneakers</h1>
-          These low-profile sneakers are your perfect casual wear companion.
-          Featuring a durable rubber outer sole, they'll withstand everything
-          the weather can offer.
-          <h3>$125.00 <span>50%</span></h3>
-          <p>$250.00</p>
-          <div>
-            <div>
-              <img src="/images/icon-minus.svg" alt="minus" />
-              0
-              <img src="/images/icon-plus.svg" alt="plus" />
+      <div>
+        <section class="products">
+          <div class="product-images">
+            <div class="main-img">
+              <img src="/images/image-product-1.jpg" alt="big img" />
             </div>
-            <button>
-              <img src="/images/icon-cart.svg" alt="cart" />
-              Add to cart
-            </button>
+            <div class="thumbnails">
+              <img src="/images/image-product-1-thumbnail.jpg" alt="th1" />
+              <img src="/images/image-product-2-thumbnail.jpg" alt="th2" />
+              <img src="/images/image-product-3-thumbnail.jpg" alt="th3" />
+              <img src="/images/image-product-4-thumbnail.jpg" alt="th4" />
+            </div>
           </div>
-        </div>
-      </section>
+          <div class="product-details">
+            <h4>Sneaker Company</h4>
+            <h1>Fall Limited Edition <br />Sneakers</h1>
+            These low-profile sneakers are your perfect casual wear
+            <br />companion. Featuring a durable rubber outer sole, they'll
+            <br />
+            withstand everything the weather can offer.
+            <h3>$125.00 <span>50%</span></h3>
+            <p>$250.00</p>
+            <div class="cart">
+              <div class="quantity">
+                <img src="/images/icon-minus.svg" alt="minus" />
+                0
+                <img src="/images/icon-plus.svg" alt="plus" />
+              </div>
+              <button>
+                <img src="/images/icon-cart.svg" alt="cart" />
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>
